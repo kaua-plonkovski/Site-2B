@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAUA PLONKOVSKI</title>
+    <title>Segunda Página</title>
 </head>
 <body>
-    <h1>Bem-vindo à Página do kauazin</h1>
-    <p>Esta é a página principal.</p>
-    <a href="segunda-pagina.html">Ir para a Segunda Página</a>
+    <h1> Segunda Página</h1>
+    <p> segunda página do seu site.</p>
+    <a href="index.html">Voltar para a Página Principal</a>
+
+    <!-- Video do YouTube -->
+    <h2>Assista ao vídeo abaixo:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ozHTPBoOQJM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
