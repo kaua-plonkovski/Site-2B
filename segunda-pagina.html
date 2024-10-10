@@ -1,16 +1,69 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda página</title>
-</head>
-<body>
-    <h1> Segunda página</h1>
-    <p> segunda página do seu site </p>
-    <a href="index.html">Voltar para a página principal</a>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-    <h2>Assista ao vídeo abaixo:</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ozHTPBoOQJM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
-</html>
+header {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    border-radius: 50%; 
+    width: 80px;
+    height: 80px;
+}
+
+nav .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav .nav-item a:hover {
+    text-decoration: underline;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-image: url('bowser-large.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+td {
+    border: 2px solid red;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.8); 
+}
+
+.menu-item {
+    position: relative; /* Para permitir o uso de z-index */
+}
+
+.informacoes {
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+footer {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
