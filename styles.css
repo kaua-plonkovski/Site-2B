@@ -54,15 +54,15 @@ td {
 }
 
 .menu-item {
-    position: relative; /* Para permitir o uso de z-index */
+    position: relative; 
 }
 
 .informacoes {
-    text-align: left; /* Texto alinhado à esquerda */
+    text-align: left; 
 }
 
 footer {
-    background-color: #007bff; /* Azul */
+    background-color: #007bff; 
     color: white;
     padding: 20px;
     text-align: left;
